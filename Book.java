@@ -32,23 +32,27 @@ class Book
     public void borrow(){
         borrowed += 1;
     }
-
+    /** 2.83 */
     public String getAuthor()
     {
         return author;
     }
+    /** 2.84 */
     public String getTitle()
     {
         return title;
     }
+    /** 2.85 */
     public int getPages()
     {
         return pages;
     }
+    /** 2.91 */
     public int getBorrowed()
     {
         return borrowed;
     }
+    /** 2.92 */
     public boolean isCourseText()
     {
         return courseText;
@@ -62,7 +66,7 @@ class Book
     {
         System.out.println(author);
     }
-    
+    /** 2.88 2.89 */
     public void printDetails()
     {
         System.out.println("Title: " + title);
@@ -76,7 +80,7 @@ class Book
             System.out.println("Refnumber = zzz");
         }    
     }
-    
+    /** 2.88 2.99 */
     public void setRefNumber(String ref)
     {
         if(ref.length() >= 3){
